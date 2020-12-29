@@ -1,0 +1,65 @@
+/* .active {
+	border-bottom: 1px solid #1034a6;
+} */
+h1 {
+	font-size: 64px;
+	margin-bottom: 16px;
+}
+
+body {
+	height: 100vh;
+	width: 850px;
+	margin: 0 auto;
+	display: flex;
+	flex-direction: column;
+}
+
+button {
+	background: #1034a6;
+	border: none;
+	padding: 8px 10px;
+	color: white;
+	cursor: pointer;
+}
+
+footer {
+	color: #888;
+	padding: 16px;
+	border-top: 1px solid #333;
+	width: 80%;
+	margin: 0 auto;
+}
+
+form {
+	margin-top: 50px;
+}
+input {
+	font-size: 18px;
+	border: none;
+	border-bottom: 1px solid #888;
+	outline: none;
+	padding: 12px;
+}
+.main-content {
+	flex-grow: 1;
+	padding: 16px;
+}
+
+.topnav {
+	overflow: hidden;
+	padding: 14px 0;
+	border-bottom: 1px solid rgb(224, 221, 221);
+}
+.topnav a {
+	color: #888;
+	font-size: 20px;
+	font-weight: bold;
+	margin-right: 16px;
+	padding: 13px;
+	text-decoration: none;
+	text-align: center;
+}
+
+.topnav a.active {
+	border-bottom: 5px solid #1034a6;
+}
